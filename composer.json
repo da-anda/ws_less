@@ -1,0 +1,21 @@
+{
+	"name": "da-anda/ws_less",
+	"type": "typo3-cms-extension",
+	"description": "LESS Compiler for TYPO3",
+	"homepage": "http://typo3.org",
+	"license": "GPL-2.0+",
+
+	"version": "2.0.0",
+	"require": {
+		"typo3/cms-core": ">=6.1.0,<8.0",
+		"oyejorge/less.php": "1.7.*"
+	},
+	"replace": {
+		"ws_less": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"WapplerSystems\\WsLess\\": "Classes"
+		}
+	}
+}

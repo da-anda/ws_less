@@ -162,7 +162,7 @@ class RenderPreProcessorHook {
 			return '';
 		}
 
-		$this->initializeLessParser();
+		#$this->initializeLessParser();
 
 		// compare input directory with output and if different
 		// define a prefix for resource pathes in order to make
